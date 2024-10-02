@@ -1,150 +1,17 @@
  
 /*Header*/
   
-
-  
- 
- 
-
-
-
-
 /*Section Hero*/
 
 
-
 /* Section Our Team*/
-
-.section-our-team{
- background: #f4f4fd;
-}
-
-.team-title{
-    margin-bottom: 72px;
-}
-.section-title{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-align: center;
-        text-transform: capitalize;
-        color: #2e2f42;          
-}
-.name-team-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;
-   
-}
-.section-team-list{
-    display: flex;
-    gap: 24px;
-    
-       
-}
-.section-team-item{
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-.team-text{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
-.team-name-text-container{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-.team-icon-list{
-
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 8px;
-  
-}
-.team-icon-link{
-    display: flex;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
- .team-icon-link:hover,
- .team-icon-link:focus
- {
-    background-color: #404bbf;
-}
-
-.team-icon-item {
-    height: 40px;
-    width: 40px;
-}
-
-.team-icon{
-    fill: #f4f4fd;
-}
-
 
 
 /*Section Features*/
 
 
-.features-list{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;
-  
-}
-.features-item{
-width: calc((100% - 72px) / 4);
-}
-.features-name{
-font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-.features-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-.features-icon-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 264px;
-    height: 112px;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-    text-align: center;
-    margin-bottom: 8px;
-        
-}
-
 /*Section Our Portfolio*/
+
 .title-portfolio{
     margin-bottom: 72px;
 }
